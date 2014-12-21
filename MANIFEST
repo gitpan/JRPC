@@ -1,4 +1,5 @@
 bin/jrpc_client.pl
+Changes
 examples/filesearch.json
 examples/filesearch.pl
 examples/LongSearch.pm
@@ -15,11 +16,11 @@ JRPC/Apache2.pm
 JRPC/CGI.pm
 JRPC/Client.pm
 JRPC/Nginx.pm
-Makefile
 Makefile.PL
 MANIFEST
 README
 t/01load.t
+t/01load_ap.t
 t/02testserv.t
 t/20test_mp.t
 t/21pod.t

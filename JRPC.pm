@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 #UNUSED:my $rstub = {'id' => 66666, 'jsonrpc' => '2.0'};
-our $VERSION = '0.60';
+our $VERSION = '0.61';
 # 0 = No validation (trust client, any exceptions thrown because of errors will
 #    be much lower level.)
 # 1 = Validate method,params

@@ -1,13 +1,13 @@
 use Test::More;
 use lib ('..');
-plan('tests', 7);
+plan('tests', 6); # 7,6
 # External deps
 use_ok('JSON::XS');
 use_ok('LWP');
 use_ok('HTTP::Server::Simple');
 # JRPC::*
 use_ok('JRPC');
-use_ok('JRPC::Apache2');
+#use_ok('JRPC::Apache2'); # Dropped as not a strict dependency (was a coflict between Makefile.PL and this test)
 use_ok('JRPC::CGI');
 use_ok('JRPC::Client');
 # Sorry - Module 'ngix' (perl+.so module) has some symbols statically
